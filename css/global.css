@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.descricaoSlider {
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 40px;
+}
+
+.descricaoMeioSlider {
+    font-family: 'Source Code Pro', monospace
+}
+
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+
+.tituloMeio {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 45px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.subtituloNotebook {
+    color: var(--corpapel);
+    font-weight: 100;
+    margin-top: 35px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.descricaofetech {
+    font-family: 'Source Code Pro', monospace;
+    text-align: justify;
+}
+
+
+.botaoentraremcontato {
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    float: right;
+}
+
+.subtituloServicos {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.tituloDepoimento {
+    padding: 30px;
+}
+
+.botaosaibamais {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 20px;
+}
+
+.botaocontato {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    border-radius: 20px;
+}
+
+.button-primay:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+
+.button-primay-outline:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+
+.button2 {
+    max-width: 100px;
+    font-size: 13px;
+    padding: 7px;
+    position: absolute;
+    margin: 0px 10px 0px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.login {
+    text-decoration: none;
+}
+
+.Fetech {
+    color: black;
+    display: flex;
+    left: 50px;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 60px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 15px;
+}
+
+.whatsapp-link:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
+}
+
+.imagemLogoRodape {
+    display: flex;
+    left: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 45px;
+}

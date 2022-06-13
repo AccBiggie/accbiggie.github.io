@@ -1,0 +1,229 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    background: var(--light);
+}
+
+
+#header {
+    width: 100%;
+    transition: background ease-out 0.2s;
+}
+
+
+#header.active {
+    position: fixed;
+    background: #FFF;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    transition: all ease-out 0.5s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+    justify-content: end;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+#header .nav-link {
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000;
+    border-bottom: solid 4px transparent;
+
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--primary);
+    color: var(--secondary);
+    transition: 0.3s;
+}
+
+#slider {
+    background: url(/Assets/fetech8.jpg) no-repeat center bottom;
+    background-size: 100%;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#slider h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#servicos a.destaque {
+    display: block;
+    background-color: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    height: 460px;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8)
+}
+
+#servicos a.destaque:hover {
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05);
+}
+
+
+#servicos p {
+    color: #000;
+    text-align: center;
+}
+
+#sobre .img-container {
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+    margin-top: 20px;
+}
+
+#servicos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 200px;
+}
+
+#servicos a.destaque .img-container img {
+    max-height: 160px;
+}
+
+#depoimentos .depoimento {
+    background-color: var(--medium);
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+    max-height: 230px;
+}
+
+#depoimentos .imagemDepoimento {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    object-position: center;
+}
+
+#depoimento .depoimento .tituloDepoimento {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+#depoimento .depoimento .subtituloDepoimento {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#depoimentos .depoimento .estiloDepoimento {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#depoimentos .depoimento .aspas {
+    max-width: 20px;
+    float: right;
+}
+
+#depoimentos .depoimento .name {
+    color: #000;
+    text-align: center;
+}
+
+#depoimentos .depoimento .name span {
+    color: #000;
+}
+
+#depoimentos .owl-theme .owl-dots .owl-dots.active span,
+.owl-theme .owl-dots .owl-dots:hover span {
+    background-color: var(--primary);
+}
+
+#contato .mensagem {
+    border-radius: 5px;
+    background-color: var(--medium);
+    color: #FFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+}
+
+#contato .mensagem img {
+    position: absolute;
+    left: 30px;
+    top: -30px;
+}
+
+#contato .mensagem form {
+    width: 60%;
+    display: flex;
+
+}
+
+#contato .mensagem .form-control,
+#contato .mensagem .form-control::placeholder {
+    background: none;
+    color: #FFF;
+}
+
+
+#contato ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contato ul li {
+    display: lex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#contato ul li:first-child {
+    margin-left: 0;
+}
+
+#contato ul li a {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+#contato ul li a:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #FFF;
+}
+
+#contato ul li img {
+    max-height: 20px;
+}
+
+#redesocial {
+    display: flex;
+    justify-content: flex-end;
+}
