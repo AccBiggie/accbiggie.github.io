@@ -46,10 +46,11 @@ html {
 }
 
 #slider {
-    background: url(/Assets/fetech8.jpg) no-repeat center bottom;
-    background-size: 100%;
-}
-
+    background: url(/Assets/fetech2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}   
 #slider h1 {
     text-transform: uppercase;
     font-weight: 800;

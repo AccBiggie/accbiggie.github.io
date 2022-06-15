@@ -22,13 +22,10 @@ a:hover {
     color: var(--secondary);
 }
 
-.descricaoSlider {
+.descricaoSlider, .descricaoMeioSlider {
     font-family: 'Source Code Pro', monospace;
     margin-bottom: 40px;
-}
-
-.descricaoMeioSlider {
-    font-family: 'Source Code Pro', monospace
+    color: var(--light);
 }
 
 .img-fluid {
