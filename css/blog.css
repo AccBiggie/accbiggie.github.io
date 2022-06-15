@@ -340,3 +340,7 @@ header.shadow .logo {
 .trico {
     border-radius: 10px;
 }
+
+.footer-1 {
+    margin-top: 1rem !important;
+}
