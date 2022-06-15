@@ -145,8 +145,8 @@
 /* Blog Post 2 */
 
 @media (max-width:375px){
-    .post-content post-container {
-        column-gap: 0.5rem !important;
+   .post-content {
+        margin-top: 0.5rem !important;
     }
 }
 
