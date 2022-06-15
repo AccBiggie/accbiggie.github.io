@@ -114,3 +114,39 @@
         height: 250px;
     }
 }
+
+/* Blog */
+@media (max-width:375px) {
+    .post-filter{
+        column-gap: 0.5rem !important;
+    }
+}
+
+@media (max-widht:384px){
+    .post-filter{
+        column-gap: 0.5rem !important;
+    }
+}
+
+@media (max-widht:400px){
+    .post-filter{
+        column-gap: 0.5rem !important;
+    }
+}
+
+@media (max-width:450px) {
+    .post-filter{
+        column-gap: 0.5rem !important;
+    }
+}
+
+/* Blog */
+
+/* Blog Post 2 */
+
+@media (max-width:375px){
+    .post-content post-container {
+        column-gap: 0.5rem !important;
+    }
+}
+
