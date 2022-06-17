@@ -76,6 +76,14 @@
 }
     }
 
+@media (max-width:355px) {
+    #contato .mensagem img {
+        width: 58px;
+        top: -9px;
+        left: 8px;
+    }
+}
+
 
 /*Responsividade*/
 @media (max-width:1060px) {
