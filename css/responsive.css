@@ -150,3 +150,32 @@
     }
 }
 
+@media (max-width:1300px) {
+    img.imagemMeio {
+        width: 70%;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width:1100px) {
+    img.imagemMeio {
+        width: 50%;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width:375px) {
+    img.imagemMeio {
+        width: 50%;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width:375px) {
+    .descricaoNot {
+        
+    }
+}
