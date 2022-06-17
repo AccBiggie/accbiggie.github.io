@@ -60,8 +60,15 @@
         margin-top: 0px;
         align-items: center;
     }
-  }
-
+    #depoimentos .depoimento { 
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    max-height: 251px;
+    font-size: 10px;
+}
+    }
+}
 
 /*Responsividade*/
 @media (max-width:1060px) {
