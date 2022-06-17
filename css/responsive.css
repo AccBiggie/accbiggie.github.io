@@ -13,6 +13,7 @@
     #contato .mensagem img {
         width: 70px;
         top: -27px;
+        right: 0.5rem !important;
     }
     #contato .button2 {
         max-width: 100px;
