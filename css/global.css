@@ -68,6 +68,14 @@ a:hover {
     float: right;
 }
 
+.logoHeadMeio {
+    height: 10%;
+    width: 12%;
+    z-index: 1000;
+    align-self: end;
+
+}
+
 .subtituloServicos {
     font-family: 'Source Code Pro', monospace;
 }

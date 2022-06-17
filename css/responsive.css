@@ -242,5 +242,83 @@
     }
 }
 
+/* Slider papel de parede Fetech */
 
+@media (max-width:1160px) {
+    #slider {
+        background: url(/Assets/fetechSlide.png) no-repeat;
+        background-size: cover;
+    }
+}
 
+@media (max-width:990px){
+    #slider {
+        background: url(/Assets/fetechSliider.png) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width:620px) {
+    #slider {
+        background: url(/Assets/fetech8.jpg) no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+@media (max-width:1193px) {
+    .logoHeadMeio {
+    margin-top: -7%;
+    align-items: end;
+    height: 10%;
+    width: 22%;
+    float: left;
+    }
+}
+
+@media (max-width:1095px) {
+    .descricaoNot{
+    padding: 6px;
+    }
+}
+
+@media (max-width:759px) {
+    .descricaoNot{
+    width: 100%;
+    height: 45%;
+    }
+    .logoHeadMeio {
+        margin-top: -5%;
+        align-items: end;
+        height: 11%;
+        width: 23%;
+        float: left;
+    }
+}
+
+@media (max-width:759px) {
+    .descricaoNot{
+    width: 100%;
+    height: 45%;
+    }
+}
+
+@media (max-width:477px){
+    .logoHeadMeio{
+    margin-top: -5%;
+    align-items: end;
+    height: 11%;
+    width: 23%;
+    float: left;
+}
+}
+
+@media (max-width:439px){
+    .logoHeadMeio {
+        margin-top: -5%;
+        align-items: end;
+        height: 11%;
+        width: 23%;
+        float: left;
+    }
+    }
