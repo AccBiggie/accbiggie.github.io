@@ -50,10 +50,11 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    border-bottom: 5px solid red;
 }   
 #slider h1 {
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 #slider h4 {
@@ -88,6 +89,7 @@ html {
 
 #sobre .img-container {
     display: flex;
+    background-color: var(--medium);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
     margin-top: 20px;
 }

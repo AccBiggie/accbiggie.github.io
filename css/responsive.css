@@ -25,6 +25,12 @@
     }
 }
 
+@media(max-width: 767px){
+    #sobre .img-container{
+        display:block;
+    }
+}
+
 @media(max-width: 767.98px) {
     #servicos a.destaque .img-container {
         height: 120px;
@@ -68,7 +74,7 @@
     font-size: 10px;
 }
     }
-}
+
 
 /*Responsividade*/
 @media (max-width:1060px) {
@@ -193,9 +199,9 @@
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:767px) {
     img.imagemMeio {
-        width: 50%;
+        width: 100%;
         height: auto;
         align-self: center;
     }
