@@ -1,5 +1,5 @@
+//FIXAR O HEADER
 jQuery(document).ready(function ($) {
-    //FIXAR O HEADER
     window.onscroll = function () {
         if (window.pageYOffset > 140) {
             $('#header').addClass("active");
@@ -7,7 +7,6 @@ jQuery(document).ready(function ($) {
             $('#header').removeClass("active");
         }
     }
-
     //Slider Depoimento
     $(".owl-carousel").owlCarousel({
         loop: true,
@@ -16,7 +15,7 @@ jQuery(document).ready(function ($) {
         autoplayTimeout: 6000,
         dots: true,
         lazyload: true,
-        nav: false,
+        nav: true,
         responsive: {
             0: {
                 items: 1,
@@ -30,6 +29,4 @@ jQuery(document).ready(function ($) {
         }
     });
 });
-
-
 
