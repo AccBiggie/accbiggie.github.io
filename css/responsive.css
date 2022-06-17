@@ -5,18 +5,27 @@
     }
 }
 
-@media (max-widht: 991.98px) {
+@media (max-width: 992px) {
     #header .navbar-collapse {
         width: 100%;
     }
 
     #contato .mensagem img {
-        width: 90px;
-        top: -40px;
+        width: 70px;
+        top: -27px;
+    }
+    #contato .button2 {
+        max-width: 100px;
+        font-size: 14px;
+        padding: 1px;
+        position: absolute;
+        margin: 0px 4px 0px;
+        margin-top: 36px;
+        align-items: center;
     }
 }
 
-@media(max-widht: 767.98px) {
+@media(max-width: 767.98px) {
     #servicos a.destaque .img-container {
         height: 120px;
     }
@@ -41,7 +50,18 @@
         width: 100%;
         flex-direction: column;
     }
-}
+    
+    #contato .button2 {
+        max-width: 100px;
+        font-size: 14px;
+        padding: 1px;
+        position: absolute;
+        margin: 0px 10px 0px;
+        margin-top: 0px;
+        align-items: center;
+    }
+  }
+
 
 /*Responsividade*/
 @media (max-width:1060px) {
@@ -122,13 +142,13 @@
     }
 }
 
-@media (max-widht:384px){
+@media (max-width:384px){
     .post-filter{
         column-gap: 0.5rem !important;
     }
 }
 
-@media (max-widht:400px){
+@media (max-width:400px){
     .post-filter{
         column-gap: 0.5rem !important;
     }
@@ -174,8 +194,31 @@
     }
 }
 
-@media (max-width:375px) {
-    .descricaoNot {
-        
+
+@media (max-width:630px) {
+    .setaCima {
+        margin-bottom: 75px;
     }
 }
+
+
+@media (max-width:630px) {
+    .whatsapp-link {
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width:365px) {
+    .setaCima {
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width:365px) {
+    .whatsapp-link {
+        margin-bottom: 90px;
+    }
+}
+
+
+

@@ -123,21 +123,36 @@ a:hover {
 
 .whatsapp-link {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 60px;
-    right: 40px;
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right: 30px;
     background-color: #25d366;
     color: #fff;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
 }
 
-.fa-whatsapp {
-    margin-top: 15px;
+.setaCima {
+    position: fixed;
+    width: 24px;
+    height: 33px;
+    bottom: 74px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 31px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.setaCima:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
 }
 
 .whatsapp-link:hover {
