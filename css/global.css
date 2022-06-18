@@ -170,8 +170,14 @@ a:hover {
 .imagemLogoRodape {
     display: flex;
     left: 43px;
-    width: 57%;
-    height: 100%;
+    width: 100%;
+    height: 32%;
+}
+
+.imagemLogoRodapeIndex {
+    display: flex;
+    width: 50%;
+    height: auto;
 }
 
 ::-webkit-scrollbar {

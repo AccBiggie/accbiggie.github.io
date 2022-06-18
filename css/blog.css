@@ -272,7 +272,8 @@ header.shadow .logo {
 .post-header {
     width: 100%;
     height: 440px;
-    background: var(--container-color);
+    background:url(/Assets/fetechwal.png) no-repeat;
+    background-size: cover;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 

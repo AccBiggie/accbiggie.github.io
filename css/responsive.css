@@ -1,3 +1,31 @@
+@media (max-width:381px){
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.4rem;
+        height: 1.5em;
+    }
+}
+
+@media (max-width:373px){
+    .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.5em;
+    margin: -5px;
+    margin-bottom: -3px;
+    }
+}
+
+@media (max-width:373px){
+    .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.5em;
+    margin: -7px;
+    margin-bottom: -5px;
+    }
+}
+
 @media(min-width :992px) {
     #header .nav-link {
         margin-left: 15px;

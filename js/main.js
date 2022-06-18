@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
     $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 20,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 6000,
         dots: true,
         lazyload: true,
