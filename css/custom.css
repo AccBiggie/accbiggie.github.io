@@ -106,8 +106,12 @@ html {
     max-height: 160px;
 }
 
+#depoimentos {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+    
+}
+
 #depoimentos .depoimento {
-    background-color: var(--medium);
     border-radius: 5px;
     display: flex;
     padding: 30px;

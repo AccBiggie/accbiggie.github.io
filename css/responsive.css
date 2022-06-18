@@ -11,17 +11,17 @@
     display: inline-block;
     width: 1.4rem;
     height: 1.5em;
-    margin: -5px;
+    margin: -8px;
     margin-bottom: -3px;
     }
 }
 
-@media (max-width:373px){
+@media (max-width:358px){
     .navbar-toggler-icon {
     display: inline-block;
     width: 1.4rem;
     height: 1.5em;
-    margin: -7px;
+    margin: -12px;
     margin-bottom: -5px;
     }
 }
