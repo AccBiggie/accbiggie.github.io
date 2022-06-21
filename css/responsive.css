@@ -435,6 +435,7 @@
     .post-hardware1 .header-img2 {
         background: url(/Assets/lisasu2.png) no-repeat;
         object-fit: contain;
+        width: 233px;
     }
 }
 
