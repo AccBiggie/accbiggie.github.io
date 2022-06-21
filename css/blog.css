@@ -276,6 +276,7 @@ header.shadow .logo {
     height: 440px;
     background:url(/Assets/fetechwal.png) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
