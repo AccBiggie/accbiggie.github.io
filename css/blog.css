@@ -271,7 +271,7 @@ header.shadow .logo {
 }
 
 /*Post Blogo segundo html */
-.post-header {
+.post-header, .post-hardware1 {
     width: 100%;
     height: 440px;
     background:url(/Assets/fetechwal.png) no-repeat;
@@ -352,3 +352,18 @@ header.shadow .logo {
 .footer-1 {
     margin-top: 1rem !important;
 }
+
+
+/* css PostHardware1 */
+
+
+.header-img2{
+    background-attachment: fixed;
+    width: 177%;
+    height: 356px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 5px #fd6944 solid;
+}
+
+

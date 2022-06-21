@@ -427,3 +427,114 @@
         width: 80%;
     }
 }
+
+/* Post Blog PostHarware1 */
+
+@media (max-width:1920px){
+    .post-hardware1 .header-img2 {
+        background: url(/Assets/lisasu2.png) no-repeat;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:1863px){
+    .post-hardware1 .header-img2 {
+        width: 227%;
+    }
+}
+
+@media (max-width:1817px){
+    .post-hardware1 .header-img2 {
+        width: 210%;
+        background-size: cover;
+    }
+}
+
+@media (max-width:1680px) {
+    .post-hardware1 .header-img2 {
+        width: 195%;
+        background-size: cover;
+    }
+}
+
+@media (max-width:1560px){
+    .post-hardware1 .header-img2 {
+        width: 180%
+    }
+}
+
+@media (max-width:1440px){
+    .post-hardware1 .header-img2{
+        width: 163%;
+    }
+}
+
+@media (max-width:1304px) {
+    .post-hardware1 .header-img2 {
+        width: 157%;
+        background-size: contain;
+        border-bottom: none;
+    }
+}
+
+@media (max-width:1280px){
+    .post-hardware1 .header-img2 {
+    background: url(/Assets/lisasu3.png) no-repeat;
+    width: 100%;
+    height: 350px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 10px;
+    }
+}
+
+@media (max-width:767px){
+    .post-hardware1 .header-img2{
+        width: 98%;
+        height: 375px;
+        background-size: cover;
+    }
+}
+
+@media (max-width:510px){
+    section.post-content {
+        margin-top: 7rem !important;
+        width: 95%;
+    }
+}
+
+@media (max-width: 427px){
+    .post-hardware1 .header-img2 {
+    width: 97%;
+    background-size: cover;
+    height: 320px;
+    }
+}
+
+@media (max-width:510px ) {
+    section.post-content{
+        margin-top: 4rem !important;
+        width: 95%;
+    }
+}
+
+@media (max-width:422px){
+    .post-hardware1 .header-img2 {
+    width: 95%;
+    background-size: cover;
+    height: 302px
+    }
+}
+
+@media (max-width:355px){
+    .post-hardware1 .header-img2 {
+    width: 95%;
+    background-size: cover;
+    height: 278px
+    }
+    section.post-content{
+    margin-top: 2.5rem !important;
+    width: 96%;
+    }
+}
+
