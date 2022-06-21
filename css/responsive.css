@@ -188,26 +188,39 @@
 }
 
 /* Blog */
+
+@media (max-width:326px) {
+    .post-filter.container{
+        column-gap: 0.2rem !important;
+    }
+}
+
+@media (max-width:340px) {
+    .post-filter.container{
+        column-gap: 0.2rem !important;
+    }
+}
+
 @media (max-width:375px) {
-    .post-filter {
+    .post-filter{
         column-gap: 0.5rem !important;
     }
 }
 
 @media (max-width:384px) {
-    .post-filter {
+    .post-filter{
         column-gap: 0.5rem !important;
     }
 }
 
 @media (max-width:400px) {
-    .post-filter {
+    .post-filter{
         column-gap: 0.5rem !important;
     }
 }
 
 @media (max-width:450px) {
-    .post-filter {
+    .post-filter{
         column-gap: 0.5rem !important;
     }
 }
