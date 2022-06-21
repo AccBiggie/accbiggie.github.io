@@ -229,6 +229,7 @@
 
 /* Blog Post Prologo GenDesign */
 
+
 @media (max-width:810px){
     section.post-content{
         margin-top: 6rem !important;
@@ -538,3 +539,29 @@
     }
 }
 
+/* Blog post2 */
+
+@media (max-width:510px){
+    img.header-img {
+    width: 95%;
+    height: 270px;
+    background-size: cover;
+    }
+    section.post-content {
+        margin-top: 2rem !important;
+        width: 95%;
+    }
+}
+
+@media (max-width:328px){
+    img.header-img {
+        width: 95%;
+        height: 235px;
+        background-size: cover;
+        }
+        section.post-content {
+            margin-top: 1rem !important;
+            width: 95%;
+        }
+    }
+    
