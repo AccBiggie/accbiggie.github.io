@@ -144,3 +144,9 @@ form input[type="submit"]:hover {
 .footer .social-field.youtube {
     background: linear-gradient(to right, #721e1e, #e0121c);
 }
+
+.voltaSite {
+    text-decoration: none;
+    font-size: 10px;
+    align-self: end;
+}
