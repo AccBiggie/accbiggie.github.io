@@ -369,3 +369,10 @@
         float: left;
     }
 }
+
+@media (max-width:351px) {
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        width: 80%;
+    }
+}
