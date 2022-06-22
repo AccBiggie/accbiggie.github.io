@@ -1,6 +1,6 @@
 function logar() {
-    var username = document.getElementById('username').value
-    var password = document.getElementById('password').value
+    var username = document.getElementById('#username').value
+    var password = document.getElementById('#password').value
 
     console.log(JSON.stringify({ 
         username:username,
@@ -8,7 +8,7 @@ function logar() {
     }));
 
     fetch("login", (
-        method:'POST',
+        method:'POST,
         body: JSON.stringify({
             username:username, 
             password:password
