@@ -18,3 +18,25 @@ app.use(session({secret:"abc"}));
 
     //configurações
     app.set('port', process.env.PORT || 3000)
+
+// Secção de login
+
+app.use('/acesso-restrito/*', (req, res, next) => {
+    if(req.session.nome){
+        next();
+    } else {
+        res.redirect('/index.html')
+    }
+});
+
+app.use(express.static(path.join(__dirname, 'public')))
+
+//start do server
+server.listen(app.get('port'), () => {
+    console.log('server na porta', app.get('port'))
+})
+
+
+
+
+
