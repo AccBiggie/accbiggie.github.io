@@ -4,12 +4,35 @@ html {
     background: var(--light);
 }
 
-
 #header {
     width: 100%;
     transition: background ease-out 0.2s;
 }
 
+#botaoCima {
+    position: fixed;
+    width: 24px;
+    height: 33px;
+    bottom: 74px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 31px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 1px 2px #888;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+#botaoCima.active {
+    background-color: var(--medium);
+    pointer-events: auto;
+    opacity: 1;
+}
 
 #header.active {
     position: fixed;

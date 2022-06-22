@@ -1,3 +1,4 @@
+
 //FIXAR O HEADER
 jQuery(document).ready(function ($) {
     window.onscroll = function () {
@@ -6,7 +7,7 @@ jQuery(document).ready(function ($) {
         } else {
             $('#header').removeClass("active");
         }
-    }
+    }   
     //Slider Depoimento
     $(".owl-carousel").owlCarousel({
         loop: true,
@@ -30,3 +31,13 @@ jQuery(document).ready(function ($) {
     });
 });
 
+//Botao Cima
+
+var botao = $('#botaoCima');
+$(window).scroll(function() {
+    if($(window).scrollTop() > 300){
+        botao.addClass('active');
+    } else {
+        botao.removeClass('active')
+    }
+})

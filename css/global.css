@@ -150,7 +150,7 @@ a:hover {
     z-index: 1000;
 }
 
-.setaCima {
+/*.setaCima {
     position: fixed;
     width: 24px;
     height: 33px;
@@ -168,7 +168,7 @@ a:hover {
 .setaCima:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
 }
-
+*/
 .whatsapp-link:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
 }
