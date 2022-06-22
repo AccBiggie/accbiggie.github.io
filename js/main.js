@@ -40,4 +40,9 @@ $(window).scroll(function() {
     } else {
         botao.removeClass('active')
     }
-})
+});
+
+botao.on('click', function(e){
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '100');
+});
