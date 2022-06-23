@@ -29,6 +29,7 @@ app.use('/acesso-restrito/*', (req, res, next) => {
     }
 });
 
+
 app.use(express.static(path.join(__dirname, 'public')))
 
 //start do server
@@ -49,7 +50,7 @@ app.post('/login', (req,res) =>{
 
     for(var umUsuario of usuariosparse) {
         if (nome == umUsuario.nome && senha == umUsuario.senha) {
-            req.session.nome == umUsuario
+            req.session.nome = umUsuario
             res.send('conectado')
             return
         }
