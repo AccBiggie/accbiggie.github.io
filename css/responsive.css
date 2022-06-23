@@ -229,6 +229,22 @@
 
 /* Blog Post Prologo GenDesign */
 
+@media (max-width:410px){
+    .post-header .header-img{
+        width: 95%;
+        height: 250px;
+        background-size: cover;
+    }
+}
+
+@media (max-width:328px){
+    .post-header .header-img{
+        width: 95%;
+        height: 238px;
+        background-size: cover;
+    }
+}
+
 
 @media (max-width:810px){
     section.post-content{
@@ -270,7 +286,7 @@
     }
     img.header-img{
         width: 95%;
-        height: 238px;
+        height: 220px;
     }
 }
 
@@ -484,6 +500,7 @@
     background: url(/Assets/lisasu3.png) no-repeat;
     width: 100%;
     height: 350px;
+    background-size: contain;
     object-fit:cover;
     object-position: center;
     border-radius: 10px;
@@ -498,33 +515,29 @@
     }
 }
 
-@media (max-width:510px){
-    section.post-content {
-        margin-top: 7rem !important;
-        width: 95%;
+@media (max-width:510px ) {
+    .post-hardware1 .header-img2{
+        width: 96%;
+        height: 292px;
+        background-size: cover;
     }
 }
+
 
 @media (max-width: 427px){
     .post-hardware1 .header-img2 {
-    width: 97%;
+    width: 95%;
     background-size: cover;
-    height: 320px;
+    height: 292px;
     }
 }
 
-@media (max-width:510px ) {
-    section.post-content{
-        margin-top: 4rem !important;
-        width: 95%;
-    }
-}
 
 @media (max-width:422px){
     .post-hardware1 .header-img2 {
     width: 95%;
     background-size: cover;
-    height: 302px
+    height: 270px
     }
 }
 
@@ -532,11 +545,19 @@
     .post-hardware1 .header-img2 {
     width: 95%;
     background-size: cover;
-    height: 278px
+    height: 272px
     }
     section.post-content{
     margin-top: 2.5rem !important;
     width: 96%;
+    }
+}
+
+@media (max-width:422px){
+    .post-hardware1 .header-img2 {
+    width: 95%;
+    background-size: cover;
+    height: 258px
     }
 }
 
