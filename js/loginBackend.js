@@ -25,7 +25,7 @@ app.use('/acesso-restrito/*', (req, res, next) => {
     if(req.session.nome){
         next();
     } else {
-        res.redirect('/loginfe.html')
+        res.redirect('/indexHTML/loginfe.html')
     }
 });
 
@@ -41,8 +41,8 @@ server.listen(app.get('port'), () => {
 
 // login do front para o back
 
-app.post('/login', (req,res) =>{
-    const usuarioscad = fs.readFileSync('./usuarios.json')
+app.post('/indexHTML/login', (req,res) =>{
+    const usuarioscad = fs.readFileSync('./json/usuarios.json')
     const usuariosparse = JSON.parse(usuarioscad)
 
     var nome = req.body.nomes
