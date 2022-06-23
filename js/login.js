@@ -7,14 +7,14 @@ function logar() {
         password:password
     }));
 
-    fetch("login", (
-        method:'POST,
-        body: JSON.stringify({
+    fetch("login"); 
+        method:'POST',
+        body, JSON.stringify({
             username:username, 
             password:password
         }),
-        headers: {"content-type" : "aplication/json"}
-    })
+        headers = {"content-type" : "aplication/json"}
+    }
 
     then(async (resp) => {
         var status = await resp.text();
@@ -24,5 +24,4 @@ function logar() {
         }else{
             alert('Nome ou senha inválidos !!')
         }
-    })
-}
+    });
