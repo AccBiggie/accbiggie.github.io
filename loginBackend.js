@@ -25,7 +25,7 @@ app.use('/acesso-restrito/*', (req, res, next) => {
     if(req.session.nome){
         next();
     } else {
-        res.redirect('/index.html')
+        res.redirect('/loginfe.html')
     }
 });
 
@@ -36,6 +36,26 @@ server.listen(app.get('port'), () => {
     console.log('server na porta', app.get('port'))
 })
 
+
+
+// login do front para o back
+
+app.post('/login', (req,res) =>{
+    const usuarioscad = fs.readFileSync('./usuarios.json')
+    const usuariosparse = JSON.parse(usuarioscad)
+
+    var nome = req.body.nomes
+    var senha = req.body.senha
+
+    for(var umUsuario of usuariosparse) {
+        if (nome == umUsuario.nome && senha == umUsuario.senha) {
+            req.session.nome == umUsuario
+            res.send('conectado')
+            return
+        }
+    }
+    res.send('falhou')
+})
 
 
 
