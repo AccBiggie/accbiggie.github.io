@@ -16,7 +16,7 @@
 <body>
     <main class="container">
         <h2>Login</h2>
-        <form  id="login" action="">
+        <form  id="login" method="post">
             <div class="input-field">
                 <input type="text" name="username" id="username" placeholder="Usuario:" required>
                 <div class="underline"></div>
@@ -27,9 +27,9 @@
             </div>
             <input type="submit" value="Continue">
             <a href="#" target="_blank" id="esqueceu"> Esqueceu a sua senha ? </a>
+            <button type="submit" onclick="logar()" value="Entrar" id="btn-login"></button>
         </form>
 
-        <button type="submit" onclick="logar()" value="Entrar" id="btn-login"></button>
 
         <div id="registro">
             <p>Ainda não é membro?</p>
