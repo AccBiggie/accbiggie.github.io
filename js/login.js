@@ -7,8 +7,8 @@ function logar() {
         password:password
     }));
 
-    fetch("login"); 
-        method:'POST',
+    fetch("login"),
+        method,'POST'
         body, JSON.stringify({
             username:username, 
             password:password
