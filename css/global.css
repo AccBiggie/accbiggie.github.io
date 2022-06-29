@@ -115,15 +115,29 @@ a:hover {
 }
 
 
-.button2 {
+/* .button2 {
+    align-self: center;
     max-width: 100px;
-    font-size: 13px;
-    padding: 7px;
-    position: absolute;
-    margin: 0px 10px 0px;
-    margin-top: 25px;
+    font-size: 14px;
+    padding: 1px;
+    position: relative;
+    margin: 0px 4px 0px;
+    margin-top: 170px;
+    right: 6.9rem !important;
     align-items: center;
+}*/
+
+.botaoEnviar{
+    background-color: transparent;
+    margin-left: 0.4rem;
+    color: #fff;
 }
+
+.botaoEnviar:hover {
+    background-color: var(--light);
+    color: black;
+}
+
 
 .login {
     text-decoration: none;

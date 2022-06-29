@@ -1,13 +1,13 @@
-const http = require('http')
-const path = require('path')
+const http = require('http');
+const path = require('path');
 
-const express =  require('express')
+const express =  require('express');
 const fs = require("fs");
-var session = require('express-session')
+var session = require('express-session');
 
 
-const app = express()
-const server = http.createServer(app)
+const app = express();
+const server = http.createServer(app);
 
 
 
@@ -16,17 +16,17 @@ app.use(express.urlencoded());
 app.use(session({secret:"abc"}));
 
    // configuraçoes
-   app.set('port', process.env.PORT || 5500)
+   app.set('port', process.env.PORT || 5500);
 
 
 
 
 // secção de login
-app.use('/indexHTML/acesso/*', (req, res, next) => {
+app.use("./indexHTML/acesso/", (req, res, next) => {
     if( req.session.nome ){
         next();
     }else{
-        res.redirect('/indexHTML/loginfe.html')
+        res.redirect("indexHTML/loginfe.html")
     }
       });
 
@@ -45,8 +45,8 @@ server.listen(app.get('port'), () => {
 // secção de login 2
 
 
-app.post('/login',(req, res) => {
-    const usuarioscad =   fs.readFileSync('./js/usuarios.json')
+app.post('/Entrar',(req, res) => {
+    const usuarioscad =   fs.readFileSync("/js/usuarios.json")
     const usuariosparse = JSON.parse(usuarioscad)
     
 

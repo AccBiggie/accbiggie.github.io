@@ -212,8 +212,9 @@ html {
 #contato .mensagem .form-control::placeholder {
     background: none;
     color: #FFF;
+    width: 90% !important;
+    margin: 1%;
 }
-
 
 #contato ul {
     margin: 0;

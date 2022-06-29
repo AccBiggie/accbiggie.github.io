@@ -1,6 +1,6 @@
 function logar(){
     var nomes = document.getElementById('#username').value
-    var senha = document.getElementById('#paddword').value
+    var senha = document.getElementById('#password').value
 
 console.log(JSON.stringify({
     nomes:nomes,
@@ -12,7 +12,7 @@ console.log(JSON.stringify({
         body: JSON.stringify({
             nomes:nomes,
             senha:senha
-        }) , 
+        }), 
         headers: { "Content-Type" : "application/json" }
         
     })
@@ -21,9 +21,9 @@ console.log(JSON.stringify({
         var status = await resp.text();
         console.log(status)
         if(status == 'conectado' ){
-            location.href = '/indexHTML/acesso.html'
+            location.href = "indexHTML/acesso.html"
         }else {
-            alert('nome e senha invalidos!!')
+            alert('Nome e Senha invalidos!!')
         }
         
     });

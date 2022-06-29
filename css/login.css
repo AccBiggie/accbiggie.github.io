@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 
-main.container {
+main.container.loginUsuario {
     background: white;
     width: 400px;
     min-height: 40vh;
