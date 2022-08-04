@@ -1,0 +1,247 @@
+a{
+    color: #fefefe;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.container-fluid {
+    width: auto;
+    padding-right: var(--bs-gutter-x,-0.25rem);
+    padding-left: var(--bs-gutter-x,-0.25rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a:hover {
+    color: #888;
+    cursor: pointer;   
+}
+
+.headerTopDireita {
+    background: black;
+    padding-left: 25rem !important;
+}
+
+.topoIcon {
+    color: lightblue;
+    padding: 1px;
+    margin: 2px;
+}
+
+.topoObjeto{
+    top: 1rem;
+}
+
+.topo {
+    float: right;
+    text-decoration: none;
+    font-size: 0.79rem;
+    margin-left: 1rem;
+    margin-top: 5px;
+    margin-inline: 15rem;
+    color: #fefefe;
+}
+
+.topo:hover {
+    color: #888;
+    cursor: pointer;
+}
+
+.papelParede{
+    background-color:var(--medium)
+}
+
+.barraDeNavegacao{
+    flex-direction: row;
+    margin-bottom: -12px;
+}
+
+#header {
+    width: 100%;
+    border-bottom: 4px solid #fd8f44;
+}
+
+#header .dropdown-menu{
+    position: absolute;
+    margin: 12px;
+    margin-top: -1px;
+
+}
+
+#header .comprePorDepartamento{
+    font-size: 0.8rem;
+    margin-right: 808px;
+    text-align: initial;
+    margin-top: 9px;
+    margin-bottom: 13px;
+}
+
+#header .comprePorDepartamento:hover{
+    color: var(--light);
+}
+
+.dropdown-item{
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropDireita {
+    text-decoration: none;
+    font-size: 0.8rem !important;
+    width: 126px;
+    color: #212529;
+    background: none;
+    border: none;
+}
+
+.btn-group:hover{
+    color: var(--light);
+}
+
+#header .form-control {
+    margin-left: -50rem;
+    display: fixed;
+    width: 480px;
+    height: 52px;
+    border-bottom:  5px solid #fd8f44;
+}
+
+/* Bordered form */
+
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  .botaoNav {
+    background-color: var(--primary);
+    color: white;
+    padding: 0px 3px;
+    margin: 19px 0px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .loginTamanhoFonte{
+    font-size: 0.88rem;
+  }
+
+  .inputTamanho {
+    font-size: 0.85rem;
+  }
+  
+  /* Add a hover effect for buttons */
+
+  .botaoNav:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 50%;
+    border-radius: 6%;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    font-size: 0.9rem;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 150px auto;
+    border: 2px solid #888;
+    width: 40%;
+  }
+  
+  /* Botao para fechar */
+  .close {
+    position: absolute;
+    right: 50px;
+    top: 20;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }

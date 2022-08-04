@@ -2,43 +2,150 @@
 <html lang="pt-BR">
 
 <head>
+    <title>Loja Fetech</title>
+    <link rel="icon" href="/Assets/LogoHeader.png" type="image/icon type">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>&Shop Fetech | Adquire já a sua máquina Gamer !!</title>
-    <link rel="icon" href="/Assets/LogoHeader.png" type="image/icon type">
-    <link rel="stylesheet" href="/css/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/lojaFetech.css" />
 </head>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 <body>
-    <style>
-        main h2 {
-            margin-bottom: 10rem;
-        }
-        h2, .voltaSite, span {
-            color: black;
-            
-        }
-        
-        body{
-            background: url(/Assets/fetechwal.png) no-repeat;
-            background-size: cover;
-        }
-        main.container {
-            background: url(/Assets/aguarde.svg) no-repeat;
-            background-size: contain;
-            opacity: 1;
-        }
-    </style>
-    <main class="container">
-        <h2>&Shop Fetech Em breve...</h2>
-            <span>Entrar em contato</span>
-            <a class="voltaSite" href="/indexHTML/index.html" target="_blank" alt="">Voltar ao site.</a>
-    </main>
-    
-
+    <div class="headtoppart clearfix hidden-xs hidden-sm">
+        <div class="container-fluid no-padding">
+            <div class="topo d-flex clearfix">
+                <a href="#"><i class="fa fa-user"></i> Minha Conta</a>
+                <a href="#"><i class="fa fa-comment"></i> Central de Atendimento</a>
+            </div>
+            <div class="headerTopDireita">
+                <a class="topoIcon" title="Facebook" aria-label="facebook"
+                    href="https://www.facebook.com/andre.ferreira.33234" target="_blank" rel="noopener">
+                    <i aria-hidden="true" class="fa fa-facebook"></i>
+                </a>
+                <a class="topoIcon" title="Instagram" aria-label="instagram"
+                    href="https://www.instagram.com/fetech.informatica/" target="_blank" rel="noopener">
+                    <i aria-hidden="true" class="fa fa-instagram"></i>
+                </a>
+                <a class="topoIcon" title="YouTube" aria-label="youtube"
+                    href="https://www.youtube.com/channel/UCkCI3DxLklu2IJxjN7PixwA" target="_blank" rel="noopener">
+                    <i aria-hidden="true" class="fa fa-youtube-play"></i>
+                </a>
+            </div>
+        </div>
+        <nav class="papelParede">
+            <div id="header">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">
+                            <img src="/Assets/ProjetoLogoFetech2.svg" class="img-fluid" />
+                        </a>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        </div>
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" div:aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <div class="dropdown">
+                                <ul class="navbar-nav barraDeNavegacao">
+                                    <a class="comprePorDepartamento btn btn-secondary dropdown-toggle" href="#"
+                                        role="button" id="dropDepartamento" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Compre por <BR>DEPARTAMENTO
+                                    </a>
+                                    <div>
+                                        <form id="msearch">
+                                            <input id="inpsearch" class="form-control" type="text"
+                                                placeholder="Pesquise aqui...">
+                                        </form>
+                                    </div>
+                                    <!-- Botão que irá abrir o form -->
+                                    <button class="botaoNav"
+                                        onclick="document.getElementById('id01').style.display='block'">Login</button>
+                                    <!-- The Modal -->
+                                    <div id="id01" class="modal">
+                                        <span onclick="document.getElementById('id01').style.display='none'"
+                                            class="close" title="Close Modal">&times;</span>
+                                        <!-- Modal Content -->
+                                        <form class="modal-content animate" action="/action_page.php">
+                                            <div class="imgcontainer">
+                                                <img src="/Assets/ProjetoLogoFetech2.svg" alt="Avatar" class="avatar">
+                                            </div>
+                                            <div class="container">
+                                                <label for="uname"><b></b></label>
+                                                <input class="inputTamanho" type="text" placeholder="Digite seu usuário"
+                                                    name="uname" required>
+                                                <label for="psw"><b></b></label>
+                                                <input class="inputTamanho" type="password"
+                                                    placeholder="Digite sua senha" name="psw" required>
+                                                <button type="submit">Login</button>
+                                                <label class="loginTamanhoFonte">
+                                                    <input type="checkbox" checked="checked" name="remember"> Lembrar-me
+                                                </label>
+                                            </div>
+                                            <div class="container" style="background-color:#f1f1f1">
+                                                <button type="button"
+                                                    onclick="document.getElementById('id01').style.display='none'"
+                                                    class="cancelbtn">Cancela</button>
+                                                <span class="psw">Esqueceu <a href="#">sua senha ?</a></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById('id01');
+                                        // When the user clicks anywhere outside of the modal, close it
+                                        window.onclick = function (event) {
+                                            if (event.target == modal) {
+                                                modal.style.display = "none";
+                                            }
+                                        }
+                                    </script>
+                                    <ul class="dropdown-menu" aria-labelledby="dropDepartamento">
+                                        <li><a class="dropdown-item" href="#">Promoções</a></li>
+                                        <li><a class="dropdown-item" href="#">Kits para Upgrade</a></li>
+                                        <li><a class="dropdown-item" href="#">PC Gamer</a></li>
+                                        <!--<li><a class="dropdown-item btn btn-secondary dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Hardware</a></li>-->
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="dropDireita btn btn-secondary dropdown-toggle"
+                                                role="button" id="dropDepartamento" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Hardware
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#" target="_self">Placa Mãe</a></li>
+                                                <li><a class="dropdown-item" href="#" target="_self">Processador</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#" target="_self">Memória</a></li>
+                                            </ul>
+                                        </div>
+                                        <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                                        <li><a class="dropdown-item" href="#">Periféricos</a></li>
+                                        <li><a class="dropdown-item" href="#">Gabinete</a></li>
+                                        <li><a class="dropdown-item" href="#">Monitor Gamer</a></li>
+                                        <li><a class="dropdown-item" href="#">Rede e Internet</a></li>
+                                    </ul>
+                            </div>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </div>
+    </nav>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/main.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 </html>
