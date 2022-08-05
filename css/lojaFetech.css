@@ -63,8 +63,9 @@ a:hover {
 
 #header .dropdown-menu{
     position: absolute;
-    margin: 12px;
-    margin-top: -1px;
+    margin: -1px 6px 0px;
+    border-radius: 6px;
+    vertical-align: initial;
 
 }
 
@@ -85,13 +86,19 @@ a:hover {
     width: 100%;
     padding: 0.25rem 1rem;
     clear: both;
-    font-weight: 400;
+    font-size: 0.88rem;
     color: #212529;
     text-align: inherit;
     text-decoration: none;
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+}
+
+.dropdown-item:hover {
+    color: #1e2125;
+    background-color: #e9ecef;
+    margin-inline: 0px;
 }
 
 .dropDireita {
@@ -115,9 +122,6 @@ a:hover {
     border-bottom:  5px solid #fd8f44;
 }
 
-/* Bordered form */
-
-  
   /* Full-width inputs */
   input[type=text], input[type=password] {
     width: 100%;
@@ -145,20 +149,41 @@ a:hover {
   }
 
   .inputTamanho {
-    font-size: 0.85rem;
+        font-size: 0.98rem;
+        content: '';
+        height: 1px;
+        width: 100%;
+        bottom: -5px;
+        left: 0;
+        background: rgba(0, 0, 0, 0.05);
+    }
+  
+  /* Add a hover effect for buttons */
+  .botaoNav:hover {
+    opacity: 0.8;
+  }
+  button {
+    background-color: var(--primary);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
   }
   
   /* Add a hover effect for buttons */
-
-  .botaoNav:hover {
+  button:hover {
     opacity: 0.8;
   }
   
   /* Extra style for the cancel button (red) */
   .cancelbtn {
     width: auto;
-    padding: 10px 18px;
+    padding: 8px 5px;
     background-color: #f44336;
+    border-radius: 2px;
   }
   
   /* Center the avatar image inside this container */
@@ -174,15 +199,16 @@ a:hover {
   }
   
   /* The "Forgot password" text */
-  span.psw {
+  .psw {
     float: right;
     padding-top: 16px;
     font-size: 0.9rem;
+    color: #212529;
   }
-  
+
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (max-width: 300px) {
-    span.psw {
+    .psw {
       display: block;
       float: none;
     }
@@ -192,6 +218,7 @@ a:hover {
   }
 
 /* The Modal (background) */
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -208,16 +235,17 @@ a:hover {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
-    margin: 150px auto;
-    border: 2px solid #888;
-    width: 40%;
+    background-color: rgb(254, 254, 254);
+    margin: 215px auto;
+    border: 2px solid rgb(136, 136, 136);
+    width: 25%;
   }
   
   /* Botao para fechar */
   .close {
     position: absolute;
-    right: 50px;
+    left: 73rem;
+    bottom: 58rem;
     top: 20;
     color: #000;
     font-size: 35px;
