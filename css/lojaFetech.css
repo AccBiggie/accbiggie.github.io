@@ -317,7 +317,7 @@ img.avatar {
   from {
     transform: scale(0)
   }
-  
+
   to {
     transform: scale(1)
   }
@@ -331,7 +331,7 @@ img.avatar {
 }
 
 .filter-item {
-  display: flex ;
+  display: flex;
   background: var(--bg-color);
   color: #1e2125;
   border-bottom: 4px solid var(--second-color);
@@ -394,9 +394,18 @@ body {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .1875rem
+  border-radius: .1875rem;
+  margin-top: 0.9rem !important;
+  transition: all ease-out 0.3s;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  width: 310px;
+  height: 470px;
 }
 
+.card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+}
 .card-img-actions {
   position: relative
 }
@@ -452,10 +461,10 @@ a {
 
 .text-default {
   color: black;
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
   text-align: initial;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -520,15 +529,4 @@ ul.countdown {
   font-size: 0.8rem;
   float: left;
   color: var(--corpapel);
-}
-
-.card {
-  margin-top: 0.9rem !important;
-  transition: all ease-out 0.3s;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8)
-}
-
-.card:hover {
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
-  transform: scale(1.05);
 }
