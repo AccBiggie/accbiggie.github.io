@@ -317,10 +317,42 @@ img.avatar {
   from {
     transform: scale(0)
   }
-
+  
   to {
     transform: scale(1)
   }
+}
+
+/* Filtro Produto Loja*/
+
+.filtro {
+  margin-inline: 0.3rem !important;
+  color: #1e2125;
+}
+
+.filter-item {
+  display: flex ;
+  background: var(--bg-color);
+  color: #1e2125;
+  border-bottom: 4px solid var(--second-color);
+}
+
+.filtrarProdutos {
+  color: #1e2125;
+  text-decoration: none;
+  margin-bottom: 1px solid red;
+}
+
+.filtroProduto {
+  border-style: dotted;
+}
+
+.filtrar-produto {
+  color: #1e2125;
+}
+
+.ordenar {
+  color: #1e2125;
 }
 
 /* Post Loja */
@@ -346,6 +378,9 @@ body {
 
 .mb-0 {
   color: green;
+  float: left;
+  font-size: 1.5rem;
+  margin-top: -2.7rem;
 }
 
 .card {
@@ -418,6 +453,7 @@ a {
 .text-default {
   color: black;
   font-size: 1rem !important;
+  text-align: initial;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -426,13 +462,73 @@ a {
 
 .oferta {
   width: 2rem;
-  border-bottom: 2px solid red;
+  width: 2rem;
+  background-color: #fd6944;
+  color: #ffff;
 }
 
-.contadorPromo {
+.contadorPromocao {
   width: auto;
+  border-bottom: 1px solid var(--light);
 }
 
-/*/.footer-Loja {
-  background-color: #1e2125;
-}*/
+ul.countdown {
+  display: flex;
+  margin-top: -4rem;
+  margin-inline: 2rem;
+  font-size: 0.91rem;
+  text-decoration: none;
+  display: flex;
+  margin-top: -3.1rem;
+  margin-inline: 1rem;
+}
+
+.contadorTempo {
+  color: var(--secundary);
+  padding-right: 0.4rem;
+  border-bottom: 1px solid red;
+  border-radius: 2px;
+  padding-inline: 0.3rem;
+}
+
+.promocao {
+  color: gray;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+  text-decoration: line-through;
+  float: left;
+}
+
+.preco-aVista {
+  color: green;
+  float: left;
+  margin-top: 0.8rem;
+  margin-left: -6.99rem;
+  font-size: 1.175rem;
+}
+
+.aVista {
+  width: auto;
+  font-size: 0.77rem;
+}
+
+.preco-aPrazo {
+  width: auto;
+  font-size: 0.8rem;
+  float: left;
+  color: var(--corpapel);
+}
+
+.card {
+  margin-top: 0.9rem !important;
+  transition: all ease-out 0.3s;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8)
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+}

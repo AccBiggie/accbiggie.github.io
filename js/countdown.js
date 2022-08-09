@@ -21,7 +21,7 @@ export default class Countdown {
         return Math.floor(this._timeStampDiff / (60 * 1000));
     }
     get seconds() {
-        Math.floor(this._timeStampDiff / 1000);
+        return Math.floor(this._timeStampDiff / 1000);
     }
     get total () {
         const days = this.days;
