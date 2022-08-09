@@ -12,13 +12,13 @@ export default class Countdown {
         return this._futureDate.getTime() - this._actualDate.getTime();
     }
     get days() {
-        Math.floor(this._timeStampDiff / (24 * 60 * 60 * 1000));
+        return Math.floor(this._timeStampDiff / (24 * 60 * 60 * 1000));
     }
     get hours() {
-        Math.floor(this._timeStampDiff / (60 * 60 * 1000));
+        return Math.floor(this._timeStampDiff / (60 * 60 * 1000));
     }
     get minute() {
-        Math.floor(this._timeStampDiff / (60 * 1000));
+        return Math.floor(this._timeStampDiff / (60 * 1000));
     }
     get seconds() {
         Math.floor(this._timeStampDiff / 1000);
