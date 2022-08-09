@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/lojaFetech.css" />
     <link rel="stylesheet" href="/css/blog.css"/>
-
 </head>
 
 <body>
@@ -40,8 +39,10 @@
                 </div>
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="#">
-                            <img src="/Assets/ProjetoLogoFetech2.svg" class="img-fluid logoFetechLoja" />
+                        <a class="navbar-brand logoFetechLoja" href="#">
+                            <div class="logoFetechLoja">
+                                <img class="logoFetech" src="/Assets/ProjetoLogoFetech2.svg"/>
+                            </div>
                         </a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         </div>
@@ -294,9 +295,21 @@
                             <i class="fa fa-star star"></i> <i
                                 class="fa fa-star star"></i> <i class="fa fa-star star"></i> </div></p> <a class="maisVendido" href="#"
                                 class="text-muted" data-abc="true">1° Mais vendido</a>
-                                <div class="contadorPromo">
-                                    <span>TESTE</span>
-                                </div> 
+                                <ul class="countdown">
+                                    <li>
+                                        <span data-time>00</span>
+                                        <div>Horas(s)</div>
+                                    </li>
+                                    <li>
+                                        <span data-time>00</span>
+                                        <div>min.</div>
+                                    </li>
+                                    <li>
+                                        <span data-time>00</span>
+                                        <div>sec.</div>
+                                    </li>
+                                </ul>
+                                <script type="module" src="./js/contadorDias.js"></script>
                         <div class="card-img-actions"> <img src="/Assets/r5 5600x.png" class="card-img img-fluid"
                                 width="96" height="350" alt=""> </div>
                     </div>
