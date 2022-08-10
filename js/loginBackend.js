@@ -14,11 +14,11 @@ app.use(session({secret:"abc"}));
    app.set('port', process.env.PORT || 5500);
 
 // secção de login
-app.use("./indexHTML/acesso/", (req, res, next) => {
+app.use("./indexHTML/acesso.html", (req, res, next) => {
     if( req.session.nome ){
         next();
     }else{
-        res.redirect("indexHTML/loginfe.html")
+        res.redirect("./indexHTML/acesso.html")
     }
       });
 
@@ -32,20 +32,19 @@ server.listen(app.get('port'), () => {
 })
 
 // secção de login 2
-app.post('/Entrar',(req, res) => {
-    const usuarioscad =   fs.readFileSync("/js/usuarios.json")
-    const usuariosparse = JSON.parse(usuarioscad)
+app.post('./Entrar',(req, res) => {
+    const usuarioscad =   fs.readFileSync("./js/usuarios.json")
+    const usuariosparse = JSON.parse(usuarioscad);
     
-    var nome = req.body.nomes
-    var senha = req.body.senha
+    var nome = req.body.nomes;
+    var senha = req.body.senha;
     
         for( var umUsuario of usuariosparse) {
             if(nome == umUsuario.nome && senha == umUsuario.senha ){
-                    req.session.nome = umUsuario
-                    res.send('conectado')
-                    return
+                    req.session.nome = umUsuario;
+                    res.send('conectado');
+                    return;
             }         
         }
-        res.send('falhou')
-    
-})
+        res.send('falhou');
+});
