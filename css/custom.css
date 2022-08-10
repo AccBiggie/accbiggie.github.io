@@ -96,7 +96,8 @@ html {
     height: 460px;
     text-decoration: none;
     transition: all ease-out 0.2s;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8)
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+    border-bottom: 3px solid red;
 }
 
 #servicos a.destaque:hover {
