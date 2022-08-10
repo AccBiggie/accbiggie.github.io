@@ -471,6 +471,10 @@ a {
   overflow: hidden;
 }
 
+.text-default:hover {
+  color: #f44336;
+}
+
 .oferta {
   width: 2rem;
   width: 2rem;
@@ -532,4 +536,25 @@ ul.countdown {
   font-size: 0.8rem;
   float: left;
   color: var(--corpapel);
+}
+
+
+/* Rodape */
+.footer-Loja { 
+  background:#333;
+}
+
+.novidadeEnvio {
+  text-decoration: none;
+  background: var(--bs-gray-300);
+  border-radius: 7px;
+}
+
+.submitbutton {
+float: right;
+margin-bottom: 2rem;
+}
+
+.widget-title {
+  margin-top: 1rem;
 }
