@@ -386,6 +386,7 @@ body {
 }
 
 .card {
+  cursor: pointer;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -409,7 +410,7 @@ body {
   transform: scale(1.05);
 }
 .card-img-actions {
-  position: relative
+  position: relative;
 }
 
 .card-body {
@@ -420,11 +421,11 @@ body {
 }
 
 .card-img {
-  width: 350px
+  width: 350px;
 }
 
 .star {
-  color: red
+  color: red;
 }
 
 .ratingEstrela {
@@ -436,29 +437,30 @@ body {
   float: right;
   color: gray;
   margin-top: -3rem;
+  font-size: 10px;
 }
 
 .bg-cart {
   background-color: orange;
-  color: #fff
+  color: #fff;
 }
 
 .bg-cart:hover {
-  color: #fff
+  color: #fff;
 }
 
 .bg-buy {
   background-color: green;
   color: #fff;
-  padding-right: 29px
+  padding-right: 29px;
 }
 
 .bg-buy:hover {
-  color: #fff
+  color: #fff;
 }
 
 a {
-  text-decoration: none !important
+  text-decoration: none !important;
 }
 
 .text-default {

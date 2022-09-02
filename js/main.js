@@ -30,7 +30,6 @@ jQuery(document).ready(function ($) {
         }
     });
 });
-
 //Botao Cima
 
 var botao = $('#botaoCima');
