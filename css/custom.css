@@ -181,6 +181,10 @@ html {
     color: #000;
 }
 
+#depoimentos .owl-carousel {
+    cursor: pointer;
+}
+
 #depoimentos .owl-theme .owl-dots .owl-dots.active span,
 .owl-theme .owl-dots .owl-dots:hover span {
     background-color: var(--primary);

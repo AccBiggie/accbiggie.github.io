@@ -10,13 +10,14 @@ jQuery(document).ready(function ($) {
     }   
     //Slider Depoimento
     $(".owl-carousel").owlCarousel({
+        autoplayHoverPause:true,
         loop: true,
         margin: 20,
         autoplay: true,
         autoplayTimeout: 6000,
         dots: true,
         lazyload: true,
-        nav: true,
+        nav: false,
         responsive: {
             0: {
                 items: 1,
