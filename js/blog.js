@@ -15,9 +15,7 @@ jQuery(document).ready(function ($) {
         $(this).addClass("active-filter").siblings().removeClass("active-filter");
     })
 });
-
 //Header de Navegacao
-
 let header = document.querySelector('header')
 
 window.addEventListener('scroll', () => {
