@@ -1,6 +1,6 @@
 //Connection with DataBase
 const mongoose = require('mongoose');
-const uri = "mongodb+srv://accbiggie:Fuckyeh1577@lojafetech.qidpcca.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv:""";
 const connectDataBase = ( ) => 
     {
         mongoose.connect(uri).then((data) => 
