@@ -19,7 +19,7 @@ function App() {
     return (
         <Router>
             <Header/>
-            <Route exact path = "/" component={<Home/>} />
+            <Route exact path = "/" component={Home} />
             <Route exact path = "/product/:id" component = {ProductDetails} />
             <Footer/>
         </Router>
